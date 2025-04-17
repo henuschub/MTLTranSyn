@@ -1,0 +1,14 @@
+Fold = 5
+DrugAE_InputDim = 1213
+CELLAE_InputDim = 5000
+DrugAE_OutputDim = 128
+CellAE_OutputDim = 128
+DrugAE_OutputDim_Optional = [64, 128, 256, 512, 1024]
+CellAE_OutputDim_Optional = [64, 128, 256, 512, 1024]
+DrugAE_SaveBase = "save/AutoEncoder/DrugAE_"
+CellAE_SaveBase = "save/AutoEncoder/CellLineAE_"
+DrugAE_Result = "result/DrugAE_result.txt"
+CellLineAE_Result = "result/CellLineAE_result.txt"
+MTLTranSyn_SaveBase = "save/MTLTranSyn/"
+MTLTranSyn_Result = "result/MTLTranSyn_result.txt"
+MTLTranSyn_InputDim = 256
